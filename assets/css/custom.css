@@ -1,0 +1,172 @@
+.whatsapp_icon {
+    z-index: 10;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 130px;
+    background: #34ba48;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff
+}
+
+.whatsapp_icon i {
+    position: relative;
+    left: 1px;
+    top: -1px
+}
+
+.whatsapp_icon:hover {
+    background: #0bb365;
+    color: #fff
+}
+
+@-webkit-keyframes shadow-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0px rgba(52, 186, 72, 0.2);
+        box-shadow: 0 0 0 0px rgba(52, 186, 72, 0.2)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 35px rgba(52, 186, 72, 0);
+        box-shadow: 0 0 0 35px rgba(52, 186, 72, 0)
+    }
+}
+
+@keyframes shadow-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0px rgba(52, 186, 72, 0.2);
+        box-shadow: 0 0 0 0px rgba(52, 186, 72, 0.2)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 35px rgba(52, 186, 72, 0);
+        box-shadow: 0 0 0 35px rgba(52, 186, 72, 0)
+    }
+}
+
+.call_iconbtn {
+    z-index: 10;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 190px;
+    background: #318fb5;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: #fff
+}
+
+.call_iconbtn i {
+    position: relative;
+    left: 1px;
+    top: -1px
+}
+
+.call_iconbtn:hover {
+    background: #0094da;
+    color: #fff
+}
+
+@keyframes shadow-pulse {
+    0% {
+        -webkit-box-shadow: 0 0 0 0px rgba(52, 186, 72, 0.2);
+        box-shadow: 0 0 0 0px rgba(52, 186, 72, 0.2)
+    }
+    100% {
+        -webkit-box-shadow: 0 0 0 35px rgba(52, 186, 72, 0);
+        box-shadow: 0 0 0 35px rgba(52, 186, 72, 0)
+    }
+}
+
+.privacy_policy {
+    float: right;
+}
+
+.privacy_onload {
+    width: 100%;
+    float: left;
+    height: 420px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 40px;
+}
+
+.pop-privacy-box {
+    padding: 5px 5px;
+    background: #fff;
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+.pop-privacy-box h4 {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.pop-privacy-box p {
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.pop_button {
+    float: right;
+}
+
+@media only screen and (max-width: 600px) {
+    .privacy_onload {
+        height: 700px;
+    }
+    .pop-privacy-box {
+        height: 650px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* .container {
+        max-width: 1180px;
+    } */
+}
+
+.navbar>.container,
+.navbar>.container-fluid {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+}
